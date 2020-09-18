@@ -3,7 +3,7 @@ $(document).ready(function () {
   var oneYearAgo = now.setFullYear(now.getFullYear() - 1);
   oneYearAgo = new Date(oneYearAgo).toISOString().split(".")[0];
   var input = "postpartum";
-  var input2 = "selfcare";
+  var input2 = "health";
   var apiKey = "QIuBjFev0Nyb8VP-CwAwvfWQ7EGV7eS-yM9n3GaFqTurugmq";
   var queryURL =
     "https://api.currentsapi.services/v1/search?language=en&type=2&apiKey=" +
