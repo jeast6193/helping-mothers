@@ -1,20 +1,27 @@
 $(document).ready(function () {
+  var now = new Date();
+  var oneYearAgo = now.setFullYear(now.getFullYear() - 1);
+  oneYearAgo = new Date(oneYearAgo).toISOString().split(".")[0];
   var input = "postpartum";
-  var APIKey = "pShC1Qa4Ri9WY1lpSGtAcM7l7o0QonLC";
+  var apiKey = "QIuBjFev0Nyb8VP-CwAwvfWQ7EGV7eS-yM9n3GaFqTurugmq";
   var queryURL =
-    "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" +
+    "https://api.currentsapi.services/v1/search?language=en&type=2&apiKey=" +
+    apiKey +
+    "&keywords=" +
     input +
-    "&api-key=" +
-    APIKey;
+    "&start_date=" +
+    oneYearAgo;
 
   $.ajax({
     url: queryURL,
     method: "GET",
   }).then(function (response) {
-    var articleOne = response.response.docs[1].abstract;
-    var articleLinkOne = response.response.docs[1].web_url;
+    console.log(response.news[0].description);
+    var articleOne = response.news[0].title;
+    var articleLinkOne = response.news[0].url;
     console.log(articleOne);
     console.log(articleLinkOne);
-    $("dropdown-item one").attr("src", articleLinkOne);
+    $("#articleOne").attr("href", articleLinkOne);
+    $("#articleOne").text(articleOne);
   });
 });
