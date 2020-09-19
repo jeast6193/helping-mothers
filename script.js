@@ -18,8 +18,8 @@ $(document).ready(function () {
       url: queryURL,
       method: "GET",
     }).then(function (response) {
-      console.log(response.news.length);
-      console.log(response.news);
+      // console.log(response.news.length);
+      // console.log(response.news);
       var length = response.news.length;
       for (var i = 0; i < 3; i++) {
         if (i < length) {
