@@ -33,4 +33,8 @@ $(document).ready(function () {
   }
   queryGenerator("postpartum", "postpartum");
   queryGenerator("self care", "selfcare");
+  queryGenerator("breast feeding", "breastfeeding");
+  queryGenerator("sleep training", "sleeptraining");
+  queryGenerator("potty training", "pottytraining");
+  queryGenerator("behavior issues", "behaviorissues");
 });
