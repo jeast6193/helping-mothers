@@ -42,20 +42,30 @@ $(document).ready(function () {
   //Function to create the giphy api
   function giffyGenerator() {
     var apiKey = "jTq2VUpNlJh6lKIV1wm104iuOC8FMnZg";
-    var queryURL =
-      "https://api.giphy.com/v1/gifs/mkVaMw8F7AsKY?api_key=" + apiKey;
+    var queryURL ="https://api.giphy.com/v1/gifs/search?q=baby&api_key=jTq2VUpNlJh6lKIV1wm104iuOC8FMnZg" ;
+
+
+   
+
+
 
     $.ajax({
       url: queryURL,
       method: "GET",
     }).then(function (response) {
-      console.log(response.data.images.fixed_height.url);
-      var giffyImg = response.data.images.fixed_height.url;
-      var humorImg = $("<img>");
+      console.log(response)
+      for (let index = 0; index <response.data.length; index++) {
+        console.log(response.data[index].images.fixed_height.url);
+      var giffyImg = response.data[index].images.fixed_height.url;
+      var humorImg = $("<img class='giphyImg'>");
       humorImg.attr("src", giffyImg);
       humorImg.attr("alt", "Humor");
       $("#one").prepend(humorImg);
+        
+      }
+     
     });
   }
+  
   giffyGenerator();
 });
