@@ -14,7 +14,6 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
-
   <body>
     <!--NAV BAR-->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -35,8 +34,8 @@
           <li class="nav-item">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./health.html"
+          <li class="nav-item">
+            <a class="nav-link active" href="./health.html"
               >Health <span class="sr-only">(current)</span></a
             >
           </li>
@@ -49,63 +48,70 @@
         </ul>
       </div>
     </nav>
-
     <!--TEXT BOX-->
-    <div class="container col-lg-9" id="healthimage">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quia sunt
-      facere quo hic modi iste doloremque, quasi blanditiis neque officia amet
-      voluptas temporibus vitae nemo laborum eaque similique, repellendus
-      maiores incidunt consequatur dolorem. Omnis minus dicta eaque earum
-      reprehenderit maxime voluptas consequatur, suscipit nulla vitae culpa
-      error debitis dolores provident beatae temporibus dignissimos recusandae
-      praesentium. Totam at minima error ex provident quod vel, recusandae id,
-      omnis, veniam corrupti fugit rem quae sapiente. Iure, porro voluptas nobis
-      accusantium labore eius, eveniet voluptatem pariatur aliquid
-      exercitationem quam similique aut fugit accusamus possimus voluptate iste.
-      Asperiores quis, expedita aspernatur suscipit quia assumenda!
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <img
+            src="https://cdn.shopify.com/s/files/1/2602/9932/files/ISS_10326_11988_large.jpg?v=1524582596"
+            alt="fitmom"
+          />
+        </div>
+
+        <div class="col-lg-7">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quia
+          sunt facere quo hic modi iste doloremque, quasi blanditiis neque
+          officia amet voluptas temporibus vitae nemo laborum eaque similique,
+          repellendus maiores incidunt consequatur dolorem. Omnis minus dicta
+          eaque earum reprehenderit maxime voluptas consequatur, suscipit nulla
+          vitae culpa error debitis dolores provident beatae temporibus
+          dignissimos recusandae praesentium. Totam at minima error ex provident
+          quod vel, recusandae id, omnis, veniam corrupti fugit rem quae
+          sapiente. Iure, porro voluptas nobis accusantium labore eius, eveniet
+          voluptatem pariatur aliquid exercitationem quam similique aut fugit
+          accusamus possimus voluptate iste. Asperiores quis, expedita
+          aspernatur suscipit quia assumenda!
+        </div>
+      </div>
     </div>
+
     <!--FIRST BUTTON-->
-
     <div class="btn-group">
-      <button
-        type="button"
-        class="btn btn-info dropdown-toggle"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-        Postpartum
-      </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Separated link</a>
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Postpartum
+        </button>
+        <div
+          class="dropdown-menu"
+          id="postpartum"
+          aria-labelledby="dropdownMenuButton"
+        ></div>
+      </div>
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Self Care
+        </button>
+        <div
+          class="dropdown-menu"
+          id="selfcare"
+          aria-labelledby="dropdownMenuButton"
+        ></div>
       </div>
     </div>
-
-    <!--SECOND BUTTON-->
-
-    <div class="btn-group">
-      <button
-        type="button"
-        class="btn btn-info dropdown-toggle"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-        Self Care
-      </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item one" href="#">Action</a>
-        <a class="dropdown-item two" href="#">Another action</a>
-        <a class="dropdown-item three" href="#">Something else here</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Separated link</a>
-      </div>
-    </div>
-
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
@@ -128,7 +134,6 @@
     ></script>
     <script src="./script.js" async defer></script>
   </body>
-
   <!--FOOTER-->
   <footer id="footer"><p>@Copyright</p></footer>
 </html>
