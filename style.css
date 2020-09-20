@@ -14,13 +14,12 @@
 
 #healthback-ground{
     background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
-    width: auto;
-    height: auto;
 }
 .w3-image{
     border-radius: 95%;
     
 }
+
 
 #trainingtext{
     color: white;
@@ -51,6 +50,8 @@
     font-size: 10px;
   }
 
-  .navbar{
-      background-color:;
-  }
+  .navbar{background-color: darkslategrey;}
+
+  
+
+ 
