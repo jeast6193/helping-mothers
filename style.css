@@ -4,17 +4,58 @@
 .giphyImg{ width:100;
            height:200;
 
+
 }
-/* .container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
-  } */
-  /* .col-sm-4 { */
-    /* background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center; */
-  /* } */
+
+
+#background-image{
+    background-image: url(./super-mom-with-baby-space-silhouette-vector-23537291\ \(2\).jpg);
+}
+
+#intro-background{
+    background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
+}
+
+#healthback-ground{
+    background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
+    width: auto;
+    height: auto;
+}
+.w3-image{
+    border-radius: 95%;
+    
+}
+
+#trainingtext{
+    color: white;
+}
+
+
+.btn-group{
+    text-align: center;
+    justify-content: center;
+    background-color: grey;
+    color: black;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+.card-deck{
+    border-radius: 40px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategray;
+    color: lightgrey;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .navbar{
+      background-color:;
+  }
+
