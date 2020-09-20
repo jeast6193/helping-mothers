@@ -8,6 +8,15 @@
     background-image: url(./super-mom-with-baby-space-silhouette-vector-23537291\ \(2\).jpg);
 }
 
+#intro-background{
+    background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
+}
+
+#healthback-ground{
+    background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
+    width: auto;
+    height: auto;
+}
 .w3-image{
     border-radius: 95%;
     
@@ -26,3 +35,22 @@
     border: 5px solid grey;
     border-radius: 10px;
 }
+
+.card-deck{
+    border-radius: 40px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategray;
+    color: lightgrey;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .navbar{
+      background-color:;
+  }
