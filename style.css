@@ -1,3 +1,28 @@
-#healthimage{
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fktar.com%2Fstory%2F1456706%2Fvalley-mom-embraces-fitness-lifestyle-works-kids%2F&psig=AOvVaw1TTUJZRfyzyurlWQN8xYKJ&ust=1600444536328000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi0rObG8OsCFQAAAAAdAAAAABAV");
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#background-image{
+    background-image: url(./super-mom-with-baby-space-silhouette-vector-23537291\ \(2\).jpg);
+}
+
+.w3-image{
+    border-radius: 95%;
+    
+}
+
+#trainingtext{
+    color: white;
+}
+
+
+.btn-group{
+    text-align: center;
+    justify-content: center;
+    background-color: grey;
+    color: black;
+    border: 5px solid grey;
+    border-radius: 10px;
 }
