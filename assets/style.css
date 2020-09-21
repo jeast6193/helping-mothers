@@ -1,73 +1,67 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
 }
-#healthimage{
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fktar.com%2Fstory%2F1456706%2Fvalley-mom-embraces-fitness-lifestyle-works-kids%2F&psig=AOvVaw1TTUJZRfyzyurlWQN8xYKJ&ust=1600444536328000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi0rObG8OsCFQAAAAAdAAAAABAV");
+body {
+  height: 100vh;
 }
-.giphyImg{ width:100;
-           height:200;
-
-
+#healthimage {
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fktar.com%2Fstory%2F1456706%2Fvalley-mom-embraces-fitness-lifestyle-works-kids%2F&psig=AOvVaw1TTUJZRfyzyurlWQN8xYKJ&ust=1600444536328000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi0rObG8OsCFQAAAAAdAAAAABAV");
 }
-#humorbackground{
-   background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
-
+.giphyImg {
+  width: 100;
+  height: 200;
 }
-
-#background-image{
-    background-image: url(./images/super-mom-with-baby-space-silhouette-vector-23537291.jpg);
+#humorbackground {
+  background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
 }
 
-#intro-background{
-    background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
+#background-image {
+  background-image: url(./images/super-mom-with-baby-space-silhouette-vector-23537291.jpg);
 }
 
-#healthback-ground{
-    background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
-}
-.w3-image{
-    border-radius: 95%;
-    
+#intro-background {
+  background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
 }
 
-
-#trainingtext{
-    color: white;
+#healthback-ground {
+  background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
+}
+.w3-image {
+  border-radius: 95%;
 }
 
-
-.btn-group{
-    text-align: center;
-    justify-content: center;
-    background-color: grey;
-    color: black;
-    border: 5px solid grey;
-    border-radius: 10px;
+#trainingtext {
+  color: white;
 }
 
-.card-deck{
-    border-radius: 40px;
+.btn-group {
+  text-align: center;
+  justify-content: center;
+  background-color: grey;
+  color: black;
+  border: 5px solid grey;
+  border-radius: 10px;
+  margin-bottom: 10rem;
+  margin-left: 10px;
+}
+
+.card-deck {
+  border-radius: 40px;
 }
 
 #footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: darkslategray;
-    color: lightgrey;
-    text-align: center;
-    font-size: 10px;
-  }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkslategray;
+  color: lightgrey;
+  text-align: center;
+  font-size: 10px;
+}
 
-
-  .navbar{
-      background-color: darkslategrey;
-    }
-
-  
-
- 
-
+.navbar {
+  background-color: darkslategrey;
+}
