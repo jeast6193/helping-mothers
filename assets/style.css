@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
 #healthimage{
     background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fktar.com%2Fstory%2F1456706%2Fvalley-mom-embraces-fitness-lifestyle-works-kids%2F&psig=AOvVaw1TTUJZRfyzyurlWQN8xYKJ&ust=1600444536328000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi0rObG8OsCFQAAAAAdAAAAABAV");
 }
@@ -21,13 +26,12 @@
 
 #healthback-ground{
     background-image: url(https://www.superspec.com/files/content/solid_seamless/solid_seamless_swatches_PNG/28_snow.png);
-    width: auto;
-    height: auto;
 }
 .w3-image{
     border-radius: 95%;
     
 }
+
 
 #trainingtext{
     color: white;
@@ -58,7 +62,12 @@
     font-size: 10px;
   }
 
+
   .navbar{
-      background-color: #343B40;
-  }
+      background-color: darkslategrey;
+    }
+
+  
+
+ 
 
