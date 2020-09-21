@@ -3,7 +3,7 @@ $(document).ready(function () {
   var now = new Date();
   var oneYearAgo = now.setFullYear(now.getFullYear() - 1);
   oneYearAgo = new Date(oneYearAgo).toISOString().split(".")[0];
-  var apiKey = "QIuBjFev0Nyb8VP-CwAwvfWQ7EGV7eS-yM9n3GaFqTurugmq";
+  var apiKey = "VUwZOo7wVaQ2nyaZ5sqkePaJTY19bgBmUzg1d4GEsWCiCffi";
 
   // Function to create article api
   function queryGenerator(input, idString) {
@@ -32,40 +32,33 @@ $(document).ready(function () {
       }
     });
   }
-  // queryGenerator("postpartum", "postpartum");
-  // queryGenerator("self care", "selfcare");
-  // queryGenerator("toddlers", "breastfeeding");
-  // queryGenerator("babies", "sleeptraining");
-  // queryGenerator("potty", "pottytraining");
-  // queryGenerator("tantrum", "behaviorissues");
+  queryGenerator("postpartum", "postpartum");
+  queryGenerator("self care", "selfcare");
+  queryGenerator("toddlers", "breastfeeding");
+  queryGenerator("babies", "sleeptraining");
+  queryGenerator("potty", "pottytraining");
+  queryGenerator("tantrum", "behaviorissues");
 
   //Function to create the giphy api
   function giffyGenerator() {
-    var apiKey = "jTq2VUpNlJh6lKIV1wm104iuOC8FMnZg";
-    var queryURL ="https://api.giphy.com/v1/gifs/search?q=baby&api_key=jTq2VUpNlJh6lKIV1wm104iuOC8FMnZg" ;
-
-
-   
-
-
+    var queryURL =
+      "https://api.giphy.com/v1/gifs/search?q=baby&api_key=jTq2VUpNlJh6lKIV1wm104iuOC8FMnZg";
 
     $.ajax({
       url: queryURL,
       method: "GET",
     }).then(function (response) {
-      console.log(response)
-      for (let index = 0; index <response.data.length; index++) {
-        console.log(response.data[index].images.fixed_height.url);
-      var giffyImg = response.data[index].images.fixed_height.url;
-      var humorImg = $("<img class='giphyImg'>");
-      humorImg.attr("src", giffyImg);
-      humorImg.attr("alt", "Humor");
-      $("#one").prepend(humorImg);
-        
+      // console.log(response)
+      for (let index = 0; index < response.data.length; index++) {
+        // console.log(response.data[index].images.fixed_height.url);
+        var giffyImg = response.data[index].images.fixed_height.url;
+        var humorImg = $("<img class='giphyImg'>");
+        humorImg.attr("src", giffyImg);
+        humorImg.attr("alt", "Humor");
+        $("#one").prepend(humorImg);
       }
-     
     });
   }
-  
-  // giffyGenerator();
+
+  giffyGenerator();
 });
