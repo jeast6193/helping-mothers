@@ -3,10 +3,10 @@
 Installation: NA URL: https://tregis-cloud.github.io/helping-mothers/
 Usage/Test: When the mom gets on the landing page, she will see a description of what the site is all about and will have links to navigate to the other pages. The 4 pages are the landing page, the health page, the training page and the humor page.
 
-![](./images/pic1.png)
-![](./images/pic1.png)
-![](./images/pic1.png)
-![](./images/pic1.png)
+![](./assets/images/Home.png)
+![](./assets/images/Health.png)
+![](./assets/images/Training.png)
+![](./assets/images/Humor.png)
 
 Testing:
 
