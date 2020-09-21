@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
 #healthimage{
     background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fktar.com%2Fstory%2F1456706%2Fvalley-mom-embraces-fitness-lifestyle-works-kids%2F&psig=AOvVaw1TTUJZRfyzyurlWQN8xYKJ&ust=1600444536328000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi0rObG8OsCFQAAAAAdAAAAABAV");
 }
@@ -55,7 +60,9 @@
   }
 
 
-  .navbar{background-color: darkslategrey;}
+  .navbar{
+      background-color: darkslategrey;
+    }
 
   
 
